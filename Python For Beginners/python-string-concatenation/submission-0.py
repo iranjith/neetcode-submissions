@@ -1,0 +1,15 @@
+def concatenate(s1: str, s2: str) -> str:
+    joined_str = s1 + s2
+    len_str=len(joined_str)
+
+    if len_str <= 10:
+        return joined_str
+    return "Too long!"
+
+
+
+
+# do not modify below this line
+print(concatenate("He", "llo"))
+print(concatenate("Hello ", "world!"))
+print(concatenate("Length", "of10"))
